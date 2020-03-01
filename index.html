@@ -10,16 +10,11 @@
         <table>
             <tr>
                 <td>
-                    <tr>
-                       <td>
-                            Already have an Intuit account?
-                       </td> 
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="#">I forgot my User ID or Password</a>
-                        </td>
-                    </tr>
+                       
+                            <p>Already have an Intuit account?</p>
+
+                            <p><a href="#">I forgot my User ID or Password</a> </p>
+                   
                 </td>
                 <td>
                     <form action="#" name="sign-in" method="Post">
@@ -38,7 +33,33 @@
 
 
     <main>
+        <form action ="#" name="sing-up">
+            <fieldset>
+                <label for="form-header" name="form-header">
+                    <h1> Create an Intuit Account</h1>
+                    <p>One account for everything Intuit, including Mint.</p> 
+                    <p>Learn more</p> 
+                </label>
 
+            </fieldset>
+            <fieldset>
+                <label for="email">
+                    Email:
+                    <input id="email" name="email" type="email">
+                </label>
+                <label for="phone">
+                    Phone (Recommended):
+                    <input id="phone" name="phone" type="number">
+                </label>
+                <label for="password">
+                    Password: 
+                    <input id="password" name="password" type="password">
+                </label>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit"> Create Account</button>
+            </fieldset>
+        </form>
 
     </main>
     
