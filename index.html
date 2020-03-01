@@ -3,62 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Intuit Accounts - Sign Up</title>
 </head>
 <body>
-    <nav>
-        <table>
-            <tr>
-                <td>
-                       
-                            <p>Already have an Intuit account?</p>
+    <div class="navbar">
+                 <table>
+                    <tr>
+                        <td>
+                           Already have an Intuit account? <br>
+                        <a href="#"> I forgot my User ID or Password </a>  
+                        </td>
+                        <td>
+                            <button class="navbutton1" id="sign-in" name="sign-in" type="submit"> Sign In</button> 
+                        </td>
+                    </tr>
+                 </table>          
+    </div>
 
-                            <p><a href="#">I forgot my User ID or Password</a> </p>
-                   
-                </td>
-                <td>
-                    <form action="#" name="sign-in" method="Post">
-                        <fieldset>
-                            <label for="sign-in">
-                                <button id="sign-in" name="sign-in" type="submit"> Sign In</button>
-                            </label>
-
-                        </fieldset>
-                    </form>
-                </td>
-            </tr>
-        </table>
-
-    </nav>
 <header>
 
-    <table>
-        <tr>
+    <div>
+        <div>
             <img src="#" alt="Intuit Logo">
-        </tr>
-        <tr>
-            <td>
+        </div>
+        <div>
+            <div>
                 Mint
-            </td>
-            <td>
+            </div>
+            <div>
                 quickbooks
-            </td>
-            <td>
+            </div>
+            <div>
                 turbotax
-            </td>
-        </tr>
-    </table>
+            </div>
+        </div>
+    </div>
 
 </header>
 
-    <main>
+    <main class="main-form-wrapper" >
         <form action ="#" name="sing-up">
             <fieldset>
-                <label for="form-header" name="form-header">
-                    <h1> Create an Intuit Account</h1>
-                    <p>One account for everything Intuit, including Mint.</p> 
-                    <p><a href="#"> Learn more</a> 
-                </label>
+                <legend>
+                    <strong> Create an Intuit Account</strong>
+                    One account for everything Intuit, including Mint.
+                    <a href="#"> Learn more</a> 
+                </legend>
 
             </fieldset>
             <fieldset>
@@ -80,13 +71,24 @@
             </fieldset>
         </form>
 
+        <div>
+            <p> By clicking Create account, you agree to our
+Terms and have read and acknowledge our Privacy Statement.</p>
+        </div>
+        
+        <div>
+
+            Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+
+        </div>
+
     </main>
     
-    <section>
+    <div>
         <form>
             <button>Privacy Settings</button>
         </form>
-    </section>
+    </div>
 
 
     <footer>
