@@ -1,63 +1,35 @@
-# Project Name
+# Mint Sign-up Page
 
-> One paragraph statement about the project.
+> This project is a mint.com Sign-up Page Clone.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](/home/albertino/mint-com/images/Screenshot from 2020-03-02 09-29-08.png)
+![screenshot](/home/albertino/mint-com/images/Screenshot from 2020-03-02 09-29-22.png)
+This is my second project from the Microverse Curriculum. This is my second project from the Microverse curriculum. This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5, CSS
+- Visual Studio Code, Git, GitHub, Lint, Sticker,
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://github.com/Albertino2020/mint-com)
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 Albertino Francisco
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@albertino2020](https://github.com/Albertino2020)
+- Twitter: [@albertino2050](https://twitter.com/albertino2050)
+- Linkedin: [linkedin](https://linkedin.com/boamorte)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Albertino2020/mint-com/issues).
 
 ## Show your support
 
@@ -65,9 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Thanks to my Standup team whose support was second to none.
 
 ## 📝 License
 
