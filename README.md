@@ -3,6 +3,7 @@
 > This project is a mint.com Sign-up Page Clone.
 
 ![screenshot](./images/screen1.png)
+![screenshot](./images/footer.png)
 
 This is my second project from the Microverse Curriculum. This is my second project from the Microverse curriculum. This project consists of building an HTML document that matches the appearance of mint.com’s signup page.
 
