@@ -1,11 +1,6 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #eceef1;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+
   
-  header {
+  .hdr_nav{
     width: 100%;
     height: 80px;
   }
@@ -107,7 +102,7 @@ body {
     margin-top: 5px;
   }
   
-  .sign-up-form {
+  .form-wrap {
     width: 500px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     background: #fff;
@@ -117,7 +112,7 @@ body {
     top: -100px;
   }
   
-  .sign-up-form h1 {
+  .form-wrap h1 {
     position: relative;
     top: 20px;
     color: #4c4c4c;
@@ -127,7 +122,7 @@ body {
     font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
   
-  .sign-up-form p {
+  .form-wrap p {
     box-sizing: border-box;
     margin: 0;
     padding-top: 20px;
@@ -136,7 +131,7 @@ body {
     font-size: 14px;
   }
   
-  .sign-up-form a {
+  .form-wrap a {
     font-size: 12px;
     text-decoration: none;
   }
@@ -150,7 +145,7 @@ body {
     outline: none;
   }
   
-  .input-text {
+  .form-text {
     font-weight: 400;
     color: #404040;
     font-size: 14px;
@@ -208,7 +203,7 @@ body {
     font-size: 10px;
   }
   
-  .form {
+  .form-class {
     padding: 20px;
   }
   
@@ -283,4 +278,11 @@ body {
   
   #privacy-text a {
     font-size: 12px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #eceef1;
+    font-family: Helvetica, Arial, sans-serif;
   }

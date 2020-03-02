@@ -5,57 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mint Sign-up Page</title>
     <link rel="stylesheet" href="main.css">
-    <script src="https://kit.fontawesome.com/640b8b4dbe.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <header>
+    <nav class="hdr_nav">
         <div class="hdr">
             <p>Already have an Intuit account? <br>
                <a href="#">I forgot my User ID or Password</a></p>
             <div class="hdr-btn">
-                <button><i class="fas fa-lock"></i><span>  Sign In</span></button>
+                <button><i class="fas fa-lock"></i><span> Sign In</span></button>
             </div>
         </div>
-    </header>
+    </nav>
    
     <main>
         <div class="lg">
-            <img src="images/intuit.png" alt="">
+            <img src="images/intuit.png" alt="intuit logo">
         </div>
-        <div class="icons">
+        <nav class="icons">
             <div class="row">
                 <div class="col">
-                    <a href="#"><img src="images/mint.png" alt=""></a>               
+                    <a href="#"><img src="images/mint.png" alt="mint icon"></a>               
                 </div>
                 <div class="col link-text">
                     <a href="#"> mint</a>
                 </div>
                 <div class="col">
-                    <a href="#"><img src="images/quickbooks.png" alt=""></a>               
+                    <a href="#"><img src="images/quickbooks.png" alt="quickbooks icon"></a>               
                 </div>
                 <div class="col link-text">
                     <a href="#"> quickbooks</a>
                 </div>
                 <div class="col">
-                    <a href="#"><img src="images/turbotax.png" alt=""></a>               
+                    <a href="#"><img src="images/turbotax.png" alt="turbotax icon"></a>               
                 </div>
                 <div class="col link-text">
                     <a href="#"> turbotax</a>
                 </div>           
             </div>          
-        </div>
+        </nav>
 
-        <div class="sign-up-form">
+        <div class="form-wrap">
             <h1>Create an Intuit account</h1>
             <p>One account for everything Intuit, including Mint. <br> <a href="#">Learn more</a></p>
-            <form class="form">
-                <p class="input-text">Email address</p>
+            <form class="form-class">
+                <p class="form-text">Email address</p>
                 <input type="email" class="input-box">
-                <p class="input-text">Phone (recommended)</p>
+                <p class="form-text">Phone (recommended)</p>
                 <input type="number" class="input-box">
                 <p id="small-text">Standard call, messaging or data rates may apply.</p>
-                <p class="input-text">Password</p>
+                <p class="form-text">Password</p>
                 <input type="password" class="input-box password-lock">
                 <div class="create-acc">
                     <button><i class="fas fa-lock"></i> <span>Create Account</span></button>
@@ -80,11 +79,11 @@
                 <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
                     Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
             </div>
-            <section class="privacy">
+            <div class="privacy">
                 <div class="privacy-btn">
                     Privacy Settings
                 </div>
-            </section>
+            </div>
         </footer>
     </main>
 </body>
