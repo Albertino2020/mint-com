@@ -10,16 +10,16 @@ body {
     height: 80px;
   }
   
-  .header {
+  .hdr {
     float: right;
     display: inline-flex;
   }
   
-  .header a {
+  .hdr a {
     text-decoration: none;
   }
   
-  .header p {
+  .hdr p {
     position: relative;
     top: 15px;
     font-weight: 400;
@@ -27,11 +27,11 @@ body {
     font-size: 13px;
   }
   
-  .header-btn {
+  .hdr-btn {
     margin: 20px 40px 0 20px;
   }
   
-  .header-btn button {
+  .hdr-btn button {
     background: #0077c5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
@@ -42,25 +42,25 @@ body {
     padding: 8px 20px 8px 20px;
   }
   
-  .header-btn i {
+  .hdr-btn i {
     font-size: 13px;
     position: relative;
     right: 3px;
   }
   
-  .header-btn span {
+  .hdr-btn span {
     font-size: 14px;
     position: relative;
     bottom: 3px;
   }
   
-  .logo {
+  .lg {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .logo img {
+  .lg img {
     position: relative;
     left: 42%;
     cursor: pointer;
@@ -87,7 +87,7 @@ body {
     padding-right: 5px;
   }
   
-  .column a {
+  .col a {
     margin-top: 20px;
     color: #505050;
   }
@@ -99,7 +99,7 @@ body {
     padding-left: 20px;
   }
   
-  .column {
+  .col {
     float: left;
   }
   
@@ -108,7 +108,7 @@ body {
   }
   
   .sign-up-form {
-    width: 350px;
+    width: 500px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
     background: #fff;
     margin: 8% auto 0;
