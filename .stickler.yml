@@ -3,7 +3,7 @@
     linters:
         flake8:
         eslint:
-            config: './eslint.config'
+            config: 'stylelint.config.js'
         csslint:
     
     files:
